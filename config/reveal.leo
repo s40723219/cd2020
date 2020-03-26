@@ -176,7 +176,7 @@ make.start()
 <t tx="leo.20180902120523.5">&lt;head&gt;
     &lt;meta charset="utf-8"&gt;
 &lt;title&gt;
-CMSimfly 網際內容管理
+cd2020 40723219
 &lt;/title&gt;
     &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
     &lt;meta name="author" content="Hakim El Hattab"&gt;
@@ -371,12 +371,10 @@ git submodule add老師cmsimde的網址
 &lt;small&gt;
 組長進行直播，並分配工作
 組長講的重點
+
 1.作業一必須在3/26前完成，並上傳pdf檔到個人倉儲的download上。
-
 2.每周務必上傳進度。
-
 3.不會做的可以問會的同學或在gitter上發問。
-
 4.請依每個人的作業一pdf檔、網站內容，進行互評。
 
 我被分配到的工作是讓系統可以使用最新的Python 3.8.2
@@ -396,29 +394,17 @@ git submodule add老師cmsimde的網址
 
 &lt;small&gt;
 首先建立一資料夾cd2020，進去裡面建立data，並在data裡建立py382及wscite432、portablegit
-
 去python的官網
-
 https://www.python.org/
-
 並在下載區找到windows並選取Latest Python 3 Release - Python 3.8.2
-
 找到Windows x86-64 executable installer並下載到py382裡
-
 下載時將pip的選項取消
-
 再去下載SciTE系統 full 64-bit download，並放到data裡的wscite432
-
 建立start.bat
-
 建立stop.bat
-
 下載msys2-x86_64-20190524.exe 到data裡
-
 下載64-bit Git for Windows Portable 至 portablegit裡
-
 到https://bootstrap.pypa.io/get-pip.py頁面，安裝pip並另存新檔到data下
-
 執行python get-pip.py和pip install flask bs4 lmxl pelican markdown flask_cors leo指令，將python3.8.2版本缺少的模組補齊
 &lt;/small&gt;</t>
 </tnodes>
