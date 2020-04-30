@@ -42,6 +42,9 @@
 <v t="leo.20200430141409.1"><vh>封面投影片</vh>
 <v t="leo.20200430141409.2"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20200430142319.1"><vh>封面投影片</vh>
+<v t="leo.20200430142319.2"><vh>封面投影片內容</vh></v>
+</v>
 <v t="leo.20200430140109.1"><vh>封面投影片</vh>
 <v t="leo.20200430140109.2"><vh>封面投影片內容</vh></v>
 </v>
@@ -295,7 +298,7 @@ git submodule add老師cmsimde的網址
 
 						
 </t>
-<t tx="leo.20200326153559.2"># 讓系統可以使用最新的Python 3.8.2
+<t tx="leo.20200326153559.2">### 讓系統可以使用最新的Python 3.8.2
 
 &lt;small&gt;
 首先建立一資料夾cd2020，進去裡面建立data，並在data裡建立py382及wscite432、portablegit
@@ -321,7 +324,7 @@ https://www.python.org/
 
 						
 </t>
-<t tx="leo.20200430135858.2">## week3
+<t tx="leo.20200430135858.2">### week3
 
 目前進度
 
@@ -337,7 +340,7 @@ https://www.python.org/
 
 						
 </t>
-<t tx="leo.20200430135959.2"># week4
+<t tx="leo.20200430135959.2">### week4
 &lt;small&gt;
 組長開直播分配工作
 
@@ -358,7 +361,7 @@ Topic 1: Mechanical Design Process
 
 						
 </t>
-<t tx="leo.20200430140109.2"># week7 設置四輪車以及用鍵盤控制它
+<t tx="leo.20200430140109.2">### week7 設置四輪車以及用鍵盤控制它
 
 &lt;small&gt;
 進入vrep右鍵點選Add-&gt;Primitive shape-&gt;Cuboid 四輪車的本體
@@ -385,7 +388,7 @@ Topic 1: Mechanical Design Process
 
 						
 </t>
-<t tx="leo.20200430140256.2"># Assignment1
+<t tx="leo.20200430140256.2">### Assignment1
 
 Random grouping
 
@@ -399,7 +402,7 @@ https://github.com/s40723219/cd2020/blob/master/downloads/Assignment1.pdf</t>
 
 						
 </t>
-<t tx="leo.20200430141409.2">## Assignment1
+<t tx="leo.20200430141409.2">### Assignment1
 
 &lt;small&gt;
 Four wheel car
@@ -411,5 +414,18 @@ External controller tutorial
 此教程說明好幾種方式能從外部控制機器人及模擬機器人，最方便的就是編寫程式碼直接附加到場景；您需要從外部應用程序，機器人或另一台計算機運行控制代碼，這是一種非常便捷的方法。這也使您可以使用與運行真實機器人完全相同的代碼來控制仿真或模型（例如虛擬機器人）
 &lt;/small&gt;
 </t>
+<t tx="leo.20200430142319.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200430142319.2">### Assignment2
+
+https://github.com/s40723219/cd2020/blob/master/downloads/Assignment2-0.pdf
+https://github.com/s40723219/cd2020/blob/master/downloads/Assignment2-1.pdf</t>
 </tnodes>
 </leo_file>
