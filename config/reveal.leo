@@ -39,6 +39,9 @@
 <v t="leo.20200430140256.1"><vh>封面投影片</vh>
 <v t="leo.20200430140256.2"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20200430141409.1"><vh>封面投影片</vh>
+<v t="leo.20200430141409.2"><vh>封面投影片內容</vh></v>
+</v>
 <v t="leo.20200430140109.1"><vh>封面投影片</vh>
 <v t="leo.20200430140109.2"><vh>封面投影片內容</vh></v>
 </v>
@@ -243,7 +246,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200326153504.2">##week1
+<t tx="leo.20200326153504.2">## week1
 
 &lt;small&gt;
 建立自己的倉儲並管理網頁
@@ -268,7 +271,7 @@ git submodule add老師cmsimde的網址
 
 						
 </t>
-<t tx="leo.20200326153526.2">##week2
+<t tx="leo.20200326153526.2">## week2
 
 &lt;small&gt;
 組長進行直播，並分配工作
@@ -292,7 +295,7 @@ git submodule add老師cmsimde的網址
 
 						
 </t>
-<t tx="leo.20200326153559.2">##讓系統可以使用最新的Python 3.8.2
+<t tx="leo.20200326153559.2">## 讓系統可以使用最新的Python 3.8.2
 
 &lt;small&gt;
 首先建立一資料夾cd2020，進去裡面建立data，並在data裡建立py382及wscite432、portablegit
@@ -318,7 +321,7 @@ https://www.python.org/
 
 						
 </t>
-<t tx="leo.20200430135858.2">##week3
+<t tx="leo.20200430135858.2">## week3
 
 目前進度
 
@@ -334,14 +337,15 @@ https://www.python.org/
 
 						
 </t>
-<t tx="leo.20200430135959.2">##week4
-
+<t tx="leo.20200430135959.2">## week4
+&lt;small&gt;
 組長開直播分配工作
 分配內容為翻譯以下內容:
 
 Topic 0: From Digital to Industrial + Engineering Product Design Collaboration
 和
 Topic 1: Mechanical Design Process
+&lt;/small&gt;
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/IX0Xw1ROTgg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
@@ -354,7 +358,7 @@ Topic 1: Mechanical Design Process
 
 						
 </t>
-<t tx="leo.20200430140109.2">##week7 設置四輪車以及用鍵盤控制它
+<t tx="leo.20200430140109.2">## week7 設置四輪車以及用鍵盤控制它
 
 &lt;small&gt;
 進入vrep右鍵點選Add-&gt;Primitive shape-&gt;Cuboid 四輪車的本體
@@ -381,25 +385,44 @@ Topic 1: Mechanical Design Process
 
 						
 </t>
-<t tx="leo.20200430140256.2">##Assignment1
+<t tx="leo.20200430140256.2">## Assignment1
 
 &lt;small&gt;
 Random grouping
 要進行亂數分組，要利用到python的模組
 1.Random從範圍中有統一的選擇。對於序列，存在隨機元素的統一選擇，用於生成列表的隨機劃分的函數，以及使用隨機抽樣而無需替換的函數。import random # 生成第一個隨機數print "random() : ", random.random()
-參考文獻https://www.runoob.com/python/func-number-random.html
-2.for循環可以遍歷任何序列的項目，如一個列表或一個字符串。 參考文獻https://www.runoob.com/python/python-for-loop.html3.shuffle方法将序列的所有元素随机排序import random
+2.for循環可以遍歷任何序列的項目，如一個列表或一個字符串。 
+random
 list = [20, 16, 10, 5]
 random.shuffle(list)
 print "隨機排列表 : ",  list
 random.shuffle(list)
 print "隨機排列表 : ",  list
-參考文獻https://www.runoob.com/python/func-number-shuffle.html
 3.Python len() 方法返回對象（字符，列表，元組等）的長度或項目個數
 &gt;&gt;&gt;str = "runoob" &gt;&gt;&gt; len(str) # 字符串長度 6 &gt;&gt;&gt; l = [1,2,3,4,5] &gt;&gt;&gt; len(l) # 列表元素個數
-參考文獻https://www.runoob.com/python/att-string-len.html
 4.int內建型態(Built-in Types)可以在Python程式中直接使用, 不必預先import模組. 在 Python 中宣告變數後可直接指定一個特定值, 其變數型態自動設定為設定值的型態
-# 宣告一個整數a=100print(a)print('型態:', type(a))print('-'*30)參考文獻https://www.runoob.com/python/python-func-int.html
+# 宣告一個整數a=100print(a)print('型態:', type(a))print('-'*30)
+&lt;/small&gt;
+</t>
+<t tx="leo.20200430141409.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200430141409.2">## Assignment1
+
+&lt;small&gt;
+Four wheel car
+BubbleRob tutorial
+是在設計簡單的移動機器人BubbleRob，並在設計時嘗試介紹很多CoppeliaSim功能。教程將跨越許多不同的方面，因此請確保也看看其他教程，主要是有關構建仿真模型的教程。有建立模型，設置感測器，建立障礙物並測試其感測功能，讓其繞過障礙物，調整期使寸大小及物理屬性
+Line following BubbleRob tutorial
+旨在擴展BubbleRob的功能，以使其遵循的規則。確保您已經閱讀並理解了第一個BubbleRob教程。微調整其視覺感應器，並設置視覺回調函數，設置絕對坐標，構建機器人遵循的路徑
+External controller tutorial
+此教程說明好幾種方式能從外部控制機器人及模擬機器人，最方便的就是編寫程式碼直接附加到場景；您需要從外部應用程序，機器人或另一台計算機運行控制代碼，這是一種非常便捷的方法。這也使您可以使用與運行真實機器人完全相同的代碼來控制仿真或模型（例如虛擬機器人）
 &lt;/small&gt;
 </t>
 </tnodes>
