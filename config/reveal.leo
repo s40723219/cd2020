@@ -391,8 +391,9 @@ Topic 1: Mechanical Design Process
 <t tx="leo.20200430140256.2">### Assignment1
 
 Random grouping
-
-https://github.com/s40723219/cd2020/blob/master/downloads/Assignment1.pdf</t>
+&lt;small&gt;
+https://github.com/s40723219/cd2020/blob/master/downloads/Assignment1.pdf
+&lt;/small&gt;</t>
 <t tx="leo.20200430141409.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -424,8 +425,9 @@ External controller tutorial
 						
 </t>
 <t tx="leo.20200430142319.2">### Assignment2
-
+&lt;small&gt;
 https://github.com/s40723219/cd2020/blob/master/downloads/Assignment2-0.pdf
-https://github.com/s40723219/cd2020/blob/master/downloads/Assignment2-1.pdf</t>
+https://github.com/s40723219/cd2020/blob/master/downloads/Assignment2-1.pdf
+&lt;/small&gt;</t>
 </tnodes>
 </leo_file>
