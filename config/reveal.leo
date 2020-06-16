@@ -446,8 +446,9 @@ https://github.com/s40723219/cd2020/blob/master/downloads/Assignment2-1.pdf
 						
 </t>
 <t tx="leo.20200616173552.2">### Assignment3
-&lt;small&gt;
+
 組長分配翻譯內容
+&lt;small&gt;
 https://github.com/s40723219/cd2020/blob/master/downloads/Mechatronic%20Future%20and%20Challenges.pdf
 &lt;/small&gt;</t>
 <t tx="leo.20200616173652.1">&lt;section data-markdown&gt;
