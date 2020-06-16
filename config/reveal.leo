@@ -45,6 +45,12 @@
 <v t="leo.20200430142319.1"><vh>封面投影片</vh>
 <v t="leo.20200430142319.2"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20200616173552.1"><vh>封面投影片</vh>
+<v t="leo.20200616173552.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20200616173652.1"><vh>封面投影片</vh>
+<v t="leo.20200616173652.2"><vh>封面投影片內容</vh></v>
+</v>
 <v t="leo.20200430140109.1"><vh>封面投影片</vh>
 <v t="leo.20200430140109.2"><vh>封面投影片內容</vh></v>
 </v>
@@ -390,6 +396,7 @@ Topic 1: Mechanical Design Process
 </t>
 <t tx="leo.20200430140256.2">### Assignment1
 
+組長分配翻譯內容
 Random grouping
 &lt;small&gt;
 https://github.com/s40723219/cd2020/blob/master/downloads/Assignment1.pdf
@@ -428,6 +435,34 @@ External controller tutorial
 &lt;small&gt;
 https://github.com/s40723219/cd2020/blob/master/downloads/Assignment2-0.pdf
 https://github.com/s40723219/cd2020/blob/master/downloads/Assignment2-1.pdf
+&lt;/small&gt;</t>
+<t tx="leo.20200616173552.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200616173552.2">### Assignment3
+&lt;small&gt;
+組長分配翻譯內容
+https://github.com/s40723219/cd2020/blob/master/downloads/Mechatronic%20Future%20and%20Challenges.pdf
+&lt;/small&gt;</t>
+<t tx="leo.20200616173652.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200616173652.2">### Assignment3
+&lt;small&gt;
+https://github.com/s40723219/cd2020/blob/master/downloads/Assignment3-2.pdf
+https://github.com/s40723219/cd2020/blob/master/downloads/Assignment3-3.pdf
 &lt;/small&gt;</t>
 </tnodes>
 </leo_file>
