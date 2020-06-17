@@ -54,6 +54,12 @@
 <v t="leo.20200430140109.1"><vh>封面投影片</vh>
 <v t="leo.20200430140109.2"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20200617204857.1"><vh>封面投影片</vh>
+<v t="leo.20200617204857.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20200617204937.1"><vh>封面投影片</vh>
+<v t="leo.20200617204937.2"><vh>封面投影片內容</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -464,6 +470,42 @@ https://github.com/s40723219/cd2020/blob/master/downloads/Mechatronic%20Future%2
 &lt;small&gt;
 https://github.com/s40723219/cd2020/blob/master/downloads/Assignment3-2.pdf
 https://github.com/s40723219/cd2020/blob/master/downloads/Assignment3-3.pdf
+&lt;/small&gt;</t>
+<t tx="leo.20200617204857.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200617204857.2">### week8
+
+&lt;small&gt;
+第八周老師上課抽點，抽點到的人要操作老師上課教的東西
+
+老師操作示範:https://drive.google.com/file/d/1G2L6yKkHrviF9CbZnjp8bXLAWJEmQBUM/view
+
+組員的操作:https://drive.google.com/file/d/18yUMVYWPO1HelnDyV6UMkH06MjY79Vu7/view
+&lt;/small&gt;</t>
+<t tx="leo.20200617204937.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200617204937.2">### week8
+
+&lt;small&gt;
+第八周老師上課抽點，抽點到的人要操作老師上課教的東西
+
+老師操作示範:https://drive.google.com/file/d/1G2L6yKkHrviF9CbZnjp8bXLAWJEmQBUM/view
+
+組員的操作:https://drive.google.com/file/d/18yUMVYWPO1HelnDyV6UMkH06MjY79Vu7/view
 &lt;/small&gt;</t>
 </tnodes>
 </leo_file>
