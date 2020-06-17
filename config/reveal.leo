@@ -66,6 +66,9 @@
 <v t="leo.20200617210208.1"><vh>封面投影片</vh>
 <v t="leo.20200617210208.2"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20200617210557.1"><vh>封面投影片</vh>
+<v t="leo.20200617210557.2"><vh>封面投影片內容</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -563,6 +566,37 @@ gm用戶登入裝置
 完成後存儲，並點選ROC
 接著輸入pip install authomatic
 進入pj1，打開wsgi.py，即完成
+&lt;/small&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/gK68cVoko5M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200617210557.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200617210557.2">### week11
+
+&lt;small&gt;
+ubuntu設定api連線
+下載vitualbox、ubuntu、CoppeliaSim
+開啟vitualbox，匯入ubuntu
+設定虛擬主機的網路埠號:設定中的網路然後點進階設定三個埠號22、8443、19999
+設定完成後啟動
+輸入密碼kmol2020，並開啟lxterminal
+輸入xterm開啟，可使用ctrl+右鍵將視窗放大
+輸入ls查看內容
+輸入cd coppeliasim4_rev4-&gt;
+ls-&gt;
+cd CoppeliaSim_Edu_v4_0_0_Ubuntu18_04-&gt;
+ls-&gt;
+./coppeliaSim.sh
+開啟後打開檔案sdc.ttt
+開啟CoppeliaSim四輪車控制器檔案
+將檔案中的car_model.py放入編譯器中，並執行
+打開CoppeliaSim中的模擬，四輪車開始繞圈即成功
 &lt;/small&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/gK68cVoko5M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
