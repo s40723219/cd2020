@@ -66,11 +66,17 @@
 <v t="leo.20200617210208.1"><vh>封面投影片</vh>
 <v t="leo.20200617210208.2"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20200617211045.1"><vh>封面投影片</vh>
+<v t="leo.20200617211045.2"><vh>封面投影片內容</vh></v>
+</v>
 <v t="leo.20200617210557.1"><vh>封面投影片</vh>
 <v t="leo.20200617210557.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20200617211045.1"><vh>封面投影片</vh>
-<v t="leo.20200617211045.2"><vh>封面投影片內容</vh></v>
+<v t="leo.20200617211252.1"><vh>封面投影片</vh>
+<v t="leo.20200617211252.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20200617211359.1"><vh>封面投影片</vh>
+<v t="leo.20200617211359.2"><vh>封面投影片內容</vh></v>
 </v>
 </v>
 </v>
@@ -616,5 +622,48 @@ ls-&gt;
 組長開會講解ssh跟vitualbox
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Dzh81Op7ka0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200617211252.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200617211252.2">### week12
+
+組長開會討論，並交代作業注意事項
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/4fg3xMuP6eo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200617211359.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200617211359.2">### week11
+
+&lt;small&gt;
+IPv4 Ubuntu對外連線設定操作-&gt;
+點選檔案中喜好設定-&gt;
+到網路新增一個新的NAT網路-&gt;
+設定主機IP為127.0.0.1；客體IP為10.0.2.4；主機連接埠為22、19999、17443、18443；客體連接埠為22、19999、7443、8443-&gt;
+點選設定中的網路，設定主機網路為NAT Network-&gt;
+開啟LXTermial，輸入ifconfig ，sudo apt install net-tools
+cd tmp，ls，ping 127.0.0.1，cd cd2020pj1，git pull
+輸入sudo vi wsgi.py，按i進行編輯-&gt;
+將host改為10.0.2.4-&gt;
+接著按Esc，輸入:wq儲存-&gt;
+開啟leo，並開啟cd2020pj1.leo，點選Nav搜尋allowExt-&gt;
+點選fileuploadfrom，並新增一個ttt檔-&gt;
+cd..,接著在tmp下新增oauth_scrum.txt，輸入sudo vi oauth_scrum.txt-&gt;
+按i編輯，內容先隨便輸入，接著按Esc並輸入:wq儲存-&gt;
+cd cd2020pj1，並輸入python3 wsgi.py啟動
+&lt;/small&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/XcNhOhu93XY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>
