@@ -69,6 +69,9 @@
 <v t="leo.20200617210557.1"><vh>封面投影片</vh>
 <v t="leo.20200617210557.2"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20200617211045.1"><vh>封面投影片</vh>
+<v t="leo.20200617211045.2"><vh>封面投影片內容</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -598,6 +601,20 @@ ls-&gt;
 將檔案中的car_model.py放入編譯器中，並執行
 打開CoppeliaSim中的模擬，四輪車開始繞圈即成功
 &lt;/small&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/gK68cVoko5M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/XcNhOhu93XY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200617211045.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200617211045.2">### week11
+
+組長開會講解ssh跟vitualbox
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Dzh81Op7ka0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>
