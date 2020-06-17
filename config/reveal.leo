@@ -527,7 +527,11 @@ https://github.com/s40723219/cd2020/blob/master/downloads/Assignment3-3.pdf
 <t tx="leo.20200617205531.2">### week10
 
 &lt;small&gt;
+組長開會分配工作
+作業 : 根據對Topic2和Topic3的閱讀，使用CoppeliaSim、Webots、Onshape提出一個機電一體化項目。
 
-&lt;/small&gt;</t>
+而我被分配到的是topic3
+&lt;/small&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/jyIoV8YR-b4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>
