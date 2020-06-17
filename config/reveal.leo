@@ -60,6 +60,9 @@
 <v t="leo.20200617204937.1"><vh>封面投影片</vh>
 <v t="leo.20200617204937.2"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20200617205531.1"><vh>封面投影片</vh>
+<v t="leo.20200617205531.2"><vh>封面投影片內容</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -498,7 +501,7 @@ https://github.com/s40723219/cd2020/blob/master/downloads/Assignment3-3.pdf
 
 						
 </t>
-<t tx="leo.20200617204937.2">### week8
+<t tx="leo.20200617204937.2">### week9
 
 &lt;small&gt;
 這周為期中考周
@@ -511,6 +514,20 @@ https://github.com/s40723219/cd2020/blob/master/downloads/Assignment3-3.pdf
 4.完成上述影片共享設置後, 請登入 @gm 個人帳號, 至 https://forms.gle/T1Vs4sv9EdetxoWF7  填寫表單並完成期中個人自評成績登錄.
 5.完成上述各步驟後, 將繼續進行線上課程之其他內容直播或錄影
 個人期中簡報 : https://drive.google.com/file/d/1XMyuV-eFOk8aZkTOMjQfGDLh8iny7A4j/view
+&lt;/small&gt;</t>
+<t tx="leo.20200617205531.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200617205531.2">### week10
+
+&lt;small&gt;
+
 &lt;/small&gt;</t>
 </tnodes>
 </leo_file>
