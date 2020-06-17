@@ -738,9 +738,10 @@ git pull檢查有無新版本，cd docs/cmsimde-&gt;
 						
 </t>
 <t tx="leo.20200617212027.2">### week15
-
+&lt;small&gt;
 W15抽點網站:http://mde.tw/cdbw15-3/content/index.html 
 
-W15抽點倉儲:https://github.com/mdecourse/cdbw15-3.git </t>
+W15抽點倉儲:https://github.com/mdecourse/cdbw15-3.git 
+&lt;/small&gt;</t>
 </tnodes>
 </leo_file>
