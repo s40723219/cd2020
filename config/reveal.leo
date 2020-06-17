@@ -78,6 +78,15 @@
 <v t="leo.20200617211359.1"><vh>封面投影片</vh>
 <v t="leo.20200617211359.2"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20200617211726.1"><vh>封面投影片</vh>
+<v t="leo.20200617211726.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20200617211902.1"><vh>封面投影片</vh>
+<v t="leo.20200617211902.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20200617212027.1"><vh>封面投影片</vh>
+<v t="leo.20200617212027.2"><vh>封面投影片內容</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -645,7 +654,7 @@ ls-&gt;
 
 						
 </t>
-<t tx="leo.20200617211359.2">### week11
+<t tx="leo.20200617211359.2">### week12
 
 &lt;small&gt;
 IPv4 Ubuntu對外連線設定操作-&gt;
@@ -665,5 +674,75 @@ cd..,接著在tmp下新增oauth_scrum.txt，輸入sudo vi oauth_scrum.txt-&gt;
 cd cd2020pj1，並輸入python3 wsgi.py啟動
 &lt;/small&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/XcNhOhu93XY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200617211726.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200617211726.2">### week13
+
+&lt;small&gt;
+在搜尋輸入cmd開啟命令窗-&gt;
+輸入ipconfig來查看IPv4的IP-&gt;
+將虛擬主機的整體系統埠號中的主機IP改為個人IPv4的IP-&gt;
+啟動Ubuntu並開啟XLaunch.exe-&gt;
+設定SSH下的X11-&gt;
+在putty程式下輸入xterm，並進入cd2020pj1-&gt;
+git pull檢查版本，在進入docs及cmsimde-&gt;
+輸入vi wsgi.py編輯-&gt;
+將近端的host改為10.0.2.4-&gt;
+輸入python3 wsgi.py，網址為該主機IP加上7443
+&lt;/small&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/-t4xvQ1O2Rk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200617211902.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200617211902.2">### week14
+
+&lt;small&gt;
+W14抽點網站:http://mde.tw/cdbw14-2 
+
+W14抽點倉儲:https://github.com/mdecourse/cdbw14-2.git 
+
+IPv6 Ubuntu 遠端控制
+依照說明設定，設定IPv6網路。
+點選IPv6內容，IPv6位址輸入2001:288:6004:17:2020:2::7219-&gt;
+子網路首碼長度輸入64、預設匝道輸入2001:288:6006:17::254-&gt;
+接著開啟虛擬主機，設定整體系統埠號，將主機IP改為個人IP-&gt;
+啟動Ubuntu輸入密碼kmol2020-&gt;
+開啟LXTermial，並進入cd2020pj1-&gt;
+git pull檢查有無新版本，cd docs/cmsimde-&gt;
+輸入vi wsgi.py，將host改為個人主機IP-&gt;
+開啟putty，輸入預連線主機IP-&gt;
+設定SSH下的X11-&gt;
+設定完成後存儲，在打開即可連線該主機-&gt;
+輸入帳密kmol2020，打開XLaunch.exe並輸入xterm啟動-&gt;
+進入tmp/cd2020pj1/docs/cmsimde，輸入python3 wsgi.py開啟遠端
+&lt;/small&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/slrjsgy7jG4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200617212027.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200617212027.2">### week15
+
+W15抽點網站:http://mde.tw/cdbw15-3/content/index.html 
+
+W15抽點倉儲:https://github.com/mdecourse/cdbw15-3.git </t>
 </tnodes>
 </leo_file>
