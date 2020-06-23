@@ -1,8 +1,12 @@
-<h1>weeks</h1>
+<h1>About</h1>
+<p>個人網站:<a href="https://s40723219.github.io/cd2020/content/index.html">https://s40723219.github.io/cd2020/content/index.html</a></p>
+<p>個人簡報:<a href="https://s40723219.github.io/cd2020/reveal/index.html#/">https://s40723219.github.io/cd2020/reveal/index.html#/</a></p>
+<p>個人倉儲:<a href="https://github.com/s40723219/cd2020">https://github.com/s40723219/cd2020</a></p>
+<p></p><h1>weeks</h1>
 <p><a href="https://s40723219.github.io/cd2020/content/week1~5.html">week1~5</a></p>
 <p><a href="https://s40723219.github.io/cd2020/content/week6~9.html">week6~9</a></p>
 <p><a href="https://s40723219.github.io/cd2020/content/week10~14.html">week10~14</a></p>
-<p>week15~18</p>
+<p><a href="https://s40723219.github.io/cd2020/content/week15~18.html">week15~18</a></p>
 <h2>week1~5</h2>
 <p>week1</p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/5HdJ7a4Bzdc" width="560"></iframe></p>
@@ -233,19 +237,19 @@ EXIT</pre>
 <p><strong>week16</strong></p>
 <p>ipv6對外連線到自己倉儲</p>
 <p><span>修改IPv6網路設定及虛擬主機網路設定</span></p>
-<p><span>開啟虛擬主機，輸入密碼kmol2020</span></p>
-<p><span>開啟Lxterminal，在tmp下clone個人倉儲</span></p>
+<p><span>進入虛擬主機，輸入密碼kmol2020</span></p>
+<p><span>開啟Lxterminal，cd tmp -&gt;git clone --recurse-submodules 個人倉儲</span></p>
 <p><span>輸入ifconfig查詢IPv6的地址</span></p>
-<p><span>進入cd2020/cmsimde</span></p>
-<p><span>輸入sudo vi wsgi.py,將host改為IPv6地址</span></p>
-<p><span>完成後存儲，並輸入python3 wsgi.py啟動</span></p>
+<p><span>進入cd2020裡面的cmsimde</span></p>
+<p><span>輸入sudo vi wsgi.py將host改為IPv6地址</span></p>
+<p><span>完成後esc -&gt; wq儲存</span></p>
+<p><span>輸入python3 wsgi.py啟動</span></p>
 <p><span>輸入網址https://[2001:288:6004:17:2020:2:0:7227]:19443</span></p>
 <p><strong>week18</strong></p>
 <p><strong>期末報告</strong></p>
 <p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/MRdYNEVCfBI" width="560"></iframe></strong></p>
 <p><b></b></p>
-<p></p>
-<h1>Assignment</h1>
+<p></p><h1>Assignment</h1>
 <h2>Assignment1</h2>
 <p><strong>Random grouping</strong></p>
 <p><br/> Can we write this program as an App and save the result to remote database?</p>
@@ -397,16 +401,4 @@ EXIT</pre>
 <p><img alt="" height="601" src="/images/擷取.PNG" width="797"/></p>
 <p><span><a href="https://drive.google.com/file/d/1AFADmyNrwprE7AesaFAecZZquIfzbLw-/view?usp=sharing">MechaEducFutureNeed</a></span></p>
 <p>機電一體化教育的重要性及其教育方法:<br/> 機電一體化能大幅地提高和改善系統的性能，在工業方面占有極大的優勢，成為現代學生必須研究的方向，而其教育方法分為:(1)演講(2)講座討論(3)示範(4)模擬(5)協同學習(6)合作學習(7)實例探究(8)角色扮演<br/> 全球的趨勢與其對機電一體化的影響:<br/> 對於全球趨勢，主要分別為:(1)人口變化以及老齡化社會醫療系統）(2)流動性 (3)全球化以及勞力、經濟、金融的變化(4)城市化和個性化(5)氣候變化和環境變化以及能源和資源、持續性(6)智慧型社會以及無所不在的情報、數位文化。<br/> <br/>    這些趨勢的結果也是該技術必須向前發展，由於多種學科的結合，機電一體化產品具有很高的產品開發潛力。然而機電一體化必須考慮的眾多方面:(1)問題與挑戰(2)系統設計、建模和模擬(3)製造技術(4)物聯網和網路物理系統(5)通訊及訊息技術(6)機電一體化的教育。</p>
-<h1>Finalproject</h1>
-<p></p>
-<h1>About</h1>
-<p>此內容管理系統以 <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 作為 submodule 運作, 可以選定對應的版本運作, cmsimde 可以持續改版, 不會影響之前設為 submodule, 使用舊版 cmsimde 模組的內容管理相關運作.</p>
-<h4>利用 cmsimde 建立靜態網誌方法:</h4>
-<p>1. 在 github 建立倉儲, git clone 到近端</p>
-<p>2. 參考 <a href="https://github.com/mdecourse/newcms">https://github.com/mdecourse/newcms</a>, 加入除了 cmsimde 目錄外的所有內容</p>
-<p>以 git submodule add <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> cmsimde</p>
-<p>建立 cmsimde 目錄, 並從 github 取下子模組內容.</p>
-<p>3.在近端維護時, 更換目錄到倉儲中的 cmsimde, 以 python wsgi.py 啟動近端網際伺服器.</p>
-<p>動態內容編輯完成後, 以 generate_pages 轉為靜態內容, 以 git add commit 及 push 將內容推到遠端.</p>
-<p>4. 之後若要以 git clone 取下包含 submodule 的所有內容, 執行:</p>
-<p>git clone --recurse-submodules <a href="https://github.com/mdecourse/newcms.git">https://github.com/mdecourse/newcms.git</a></p>
+<h2>Finalproject</h2>
