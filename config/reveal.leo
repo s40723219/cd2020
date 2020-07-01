@@ -21,6 +21,9 @@
 <v t="leo.20180902120523.9"><vh>封面投影片</vh>
 <v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20200701215837.1"><vh>封面投影片</vh>
+<v t="leo.20200701215837.2"><vh>封面投影片內容</vh></v>
+</v>
 <v t="leo.20200326153526.1"><vh>封面投影片</vh>
 <v t="leo.20200326153526.2"><vh>封面投影片內容</vh></v>
 </v>
@@ -294,7 +297,7 @@ vertical: body pane on the botton</t>
 * 1.作業一必須在3/26前完成，並上傳pdf檔到個人倉儲的download上。
 * 2.每周務必上傳進度。
 * 3.不會做的可以問會的同學或在gitter上發問。
- 4.請依每個人的作業一pdf檔、網站內容，進行互評。
+* 4.請依每個人的作業一pdf檔、網站內容，進行互評。
 
 我被分配到的工作是讓系統可以使用最新的Python 3.8.2
 &lt;/small&gt;
@@ -312,19 +315,18 @@ vertical: body pane on the botton</t>
 <t tx="leo.20200326153559.2">### 讓系統可以使用最新的Python 3.8.2
 
 &lt;small&gt;
-首先建立一資料夾cd2020，進去裡面建立data，並在data裡建立py382及wscite432、portablegit
-去python的官網
-https://www.python.org/
-並在下載區找到windows並選取Latest Python 3 Release - Python 3.8.2
-找到Windows x86-64 executable installer並下載到py382裡
-下載時將pip的選項取消
-再去下載SciTE系統 full 64-bit download，並放到data裡的wscite432
-建立start.bat
-建立stop.bat
-下載msys2-x86_64-20190524.exe 到data裡
-下載64-bit Git for Windows Portable 至 portablegit裡
-到https://bootstrap.pypa.io/get-pip.py頁面，安裝pip並另存新檔到data下
-執行python get-pip.py和pip install flask bs4 lmxl pelican markdown flask_cors leo指令，將python3.8.2版本缺少的模組補齊
+* 1.首先建立一資料夾cd2020，進去裡面建立data，並在data裡建立py382及wscite432、portablegit
+* 2.去python的官網https://www.python.org/
+* 3.並在下載區找到windows並選取Latest Python 3 Release - Python 3.8.2
+* 4.找到Windows x86-64 executable installer並下載到py382裡
+* 5.下載時將pip的選項取消
+* 6.再去下載SciTE系統 full 64-bit download，並放到data裡的wscite432
+* 7.建立start.bat
+* 8.建立stop.bat
+* 9.下載msys2-x86_64-20190524.exe 到data裡
+* 10.下載64-bit Git for Windows Portable 至 portablegit裡
+* 11.到https://bootstrap.pypa.io/get-pip.py頁面，安裝pip並另存新檔到data下
+* 12.執行python get-pip.py和pip install flask bs4 lmxl pelican markdown flask_cors leo指令，將python3.8.2版本缺少的模組補齊
 &lt;/small&gt;</t>
 <t tx="leo.20200430135858.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -355,10 +357,9 @@ https://www.python.org/
 &lt;small&gt;
 組長開直播分配工作
 
-分配內容為翻譯以下內容:
-Topic 0: From Digital to Industrial + Engineering Product Design Collaboration
-和
-Topic 1: Mechanical Design Process
+* .分配內容為翻譯以下內容:
+* .Topic 0: From Digital to Industrial + Engineering Product Design Collaboration和
+* .Topic 1: Mechanical Design Process
 &lt;/small&gt;
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/IX0Xw1ROTgg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
@@ -714,5 +715,25 @@ W15抽點網站:http://mde.tw/cdbw15-3/content/index.html
 
 W15抽點倉儲:https://github.com/mdecourse/cdbw15-3.git 
 &lt;/small&gt;</t>
+<t tx="leo.20200701215837.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200701215837.2">## week1
+
+&lt;small&gt;
+* 1.建立自己的倉儲並管理網頁
+* 1.git clone新建倉儲網址
+* 2.git submodule add老師cmsimde的網址
+* 3.到cmsimde裡面的up_dir，並將所有項目複製到cd2020
+* 4.完成後用python wsgi.py 開始編輯網頁。
+&lt;/small&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/5HdJ7a4Bzdc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
 </tnodes>
 </leo_file>
