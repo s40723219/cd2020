@@ -69,6 +69,9 @@
 <v t="leo.20200617210208.1"><vh>封面投影片</vh>
 <v t="leo.20200617210208.2"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20200701223800.1"><vh>封面投影片</vh>
+<v t="leo.20200701223800.2"><vh>封面投影片內容</vh></v>
+</v>
 <v t="leo.20200617211045.1"><vh>封面投影片</vh>
 <v t="leo.20200617211045.2"><vh>封面投影片內容</vh></v>
 </v>
@@ -574,8 +577,7 @@ https://github.com/s40723219/cd2020/blob/master/downloads/Mechatronic%20Future%2
 * 13.接著輸入pip install authomatic
 * 14.進入pj1，打開wsgi.py，即完成
 
-&lt;/small&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/gK68cVoko5M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;/small&gt;</t>
 <t tx="leo.20200617210557.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -861,5 +863,19 @@ IPv6 Ubuntu 遠端控制
 操作影片
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/slrjsgy7jG4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200701223800.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200701223800.2">### week10
+
+操作影片
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/gK68cVoko5M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>
