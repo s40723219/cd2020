@@ -298,7 +298,7 @@ vertical: body pane on the botton</t>
 
 * 到cmsimde裡面的up_dir，並將所有項目複製到cd2020
 
-* 完成後用python wsgi.py 開始編輯網頁
+* 完成後用python wsgi.py開始編輯網頁
 &lt;/small&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/5HdJ7a4Bzdc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
