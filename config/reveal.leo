@@ -291,15 +291,15 @@ vertical: body pane on the botton</t>
 <t tx="leo.20200326153504.2">## week1
 
 &lt;small&gt;
-建立自己的倉儲並管理網頁
+*建立自己的倉儲並管理網頁
 
-git clone新建倉儲網址
+*git clone新建倉儲網址
 
-git submodule add老師cmsimde的網址
+*git submodule add老師cmsimde的網址
 
-到cmsimde裡面的up_dir，並將所有項目複製到cd2020
+*到cmsimde裡面的up_dir，並將所有項目複製到cd2020
 
-完成後用python wsgi.py 開始編輯網頁
+*完成後用python wsgi.py 開始編輯網頁
 &lt;/small&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/5HdJ7a4Bzdc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
