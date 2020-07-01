@@ -21,9 +21,6 @@
 <v t="leo.20180902120523.9"><vh>封面投影片</vh>
 <v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20200326153504.1"><vh>封面投影片</vh>
-<v t="leo.20200326153504.2"><vh>封面投影片內容</vh></v>
-</v>
 <v t="leo.20200326153526.1"><vh>封面投影片</vh>
 <v t="leo.20200326153526.2"><vh>封面投影片內容</vh></v>
 </v>
@@ -279,30 +276,6 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
-<t tx="leo.20200326153504.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20200326153504.2">## week1
-&lt;small&gt;
-* 建立自己的倉儲並管理網頁
-
-* git clone新建倉儲網址
-
-* git submodule add老師cmsimde的網址
-
-* 到cmsimde裡面的up_dir，並將所有項目複製到cd2020
-
-* 完成後用python wsgi.py開始編輯網頁
-&lt;/small&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/5HdJ7a4Bzdc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-
-</t>
 <t tx="leo.20200326153526.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -318,10 +291,10 @@ vertical: body pane on the botton</t>
 組長進行直播，並分配工作
 組長講的重點
 
-1.作業一必須在3/26前完成，並上傳pdf檔到個人倉儲的download上。
-2.每周務必上傳進度。
-3.不會做的可以問會的同學或在gitter上發問。
-4.請依每個人的作業一pdf檔、網站內容，進行互評。
+* 1.作業一必須在3/26前完成，並上傳pdf檔到個人倉儲的download上。
+* 2.每周務必上傳進度。
+* 3.不會做的可以問會的同學或在gitter上發問。
+ 4.請依每個人的作業一pdf檔、網站內容，進行互評。
 
 我被分配到的工作是讓系統可以使用最新的Python 3.8.2
 &lt;/small&gt;
