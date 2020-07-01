@@ -45,11 +45,11 @@
 <v t="leo.20200430142319.1"><vh>封面投影片</vh>
 <v t="leo.20200430142319.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20200616173552.1"><vh>封面投影片</vh>
-<v t="leo.20200616173552.2"><vh>封面投影片內容</vh></v>
-</v>
 <v t="leo.20200616173652.1"><vh>封面投影片</vh>
 <v t="leo.20200616173652.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20200616173552.1"><vh>封面投影片</vh>
+<v t="leo.20200616173552.2"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20200430140109.1"><vh>封面投影片</vh>
 <v t="leo.20200430140109.2"><vh>封面投影片內容</vh></v>
@@ -84,8 +84,14 @@
 <v t="leo.20200617211902.1"><vh>封面投影片</vh>
 <v t="leo.20200617211902.2"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20200701221729.1"><vh>封面投影片</vh>
+<v t="leo.20200701221729.2"><vh>封面投影片內容</vh></v>
+</v>
 <v t="leo.20200617212027.1"><vh>封面投影片</vh>
 <v t="leo.20200617212027.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20200701221815.1"><vh>封面投影片</vh>
+<v t="leo.20200701221815.2"><vh>封面投影片內容</vh></v>
 </v>
 </v>
 </v>
@@ -327,6 +333,7 @@ vertical: body pane on the botton</t>
 * 10.下載64-bit Git for Windows Portable 至 portablegit裡
 * 11.到https://bootstrap.pypa.io/get-pip.py頁面，安裝pip並另存新檔到data下
 * 12.執行python get-pip.py和pip install flask bs4 lmxl pelican markdown flask_cors leo指令，將python3.8.2版本缺少的模組補齊
+
 &lt;/small&gt;</t>
 <t tx="leo.20200430135858.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -357,11 +364,11 @@ vertical: body pane on the botton</t>
 &lt;small&gt;
 組長開直播分配工作
 
-* .分配內容為翻譯以下內容:
-* .Topic 0: From Digital to Industrial + Engineering Product Design Collaboration和
-* .Topic 1: Mechanical Design Process
-&lt;/small&gt;
+* 分配內容為翻譯以下內容:
+* Topic 0: From Digital to Industrial + Engineering Product Design Collaboration和
+* Topic 1: Mechanical Design Process
 
+&lt;/small&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/IX0Xw1ROTgg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="leo.20200430140109.1">&lt;section data-markdown&gt;
@@ -376,20 +383,20 @@ vertical: body pane on the botton</t>
 <t tx="leo.20200430140109.2">### week7 設置四輪車以及用鍵盤控制它
 
 &lt;small&gt;
-進入vrep右鍵點選Add-&gt;Primitive shape-&gt;Cuboid 四輪車的本體
-拉高本體z軸
-右鍵點選Add-&gt;Primitive shape-&gt;Cylinder 四輪車的輪胎
-調整其位置及角度
-右鍵點選Add-&gt;Joint-&gt;Relvoute 馬達
-調整它的方向，並將其功率調為20
-檢查本體的碰撞設置是否正確
-將輪胎跟馬達複製，並把其他三輪用好
-進行模擬測試
-將四輪車的前輪馬達重新命名為right_motor及left_motor
-接著將寫好的子程式加入車體
-進行模擬並用鍵盤控制
-&lt;/small&gt;
+* 1.進入vrep右鍵點選Add-&gt;Primitive shape-&gt;Cuboid 四輪車的本體
+* 2.拉高本體z軸
+* 3.右鍵點選Add-&gt;Primitive shape-&gt;Cylinder 四輪車的輪胎
+* 4.調整其位置及角度
+* 5.右鍵點選Add-&gt;Joint-&gt;Relvoute 馬達
+* 6.調整它的方向，並將其功率調為20
+* 7.檢查本體的碰撞設置是否正確
+* 8.將輪胎跟馬達複製，並把其他三輪用好
+* 9.進行模擬測試
+* 10.將四輪車的前輪馬達重新命名為right_motor及left_motor
+* 11.接著將寫好的子程式加入車體
+* 12.進行模擬並用鍵盤控制
 
+&lt;/small&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/3DPMdKi2Gn8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20200430140256.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -505,11 +512,11 @@ https://github.com/s40723219/cd2020/blob/master/downloads/Assignment3-3.pdf
 
 老師的要求如下
 
-1.老師與組長開會, 開放 live streaming, 回答與課程相關問題.
-2.要求所有學員, 透過個人行事曆建立 Google Handout Meet 會議, 展示個人桌面操作, 開放 live stream, 並錄3製至少 10 分鐘的個人期中簡報影片, 說明個人於 W1-W8 所完成的相關內容.
-3.完成上述個人簡報錄製後, 將存於個人 Google Drive 中的期中簡報 mp4 影片, 以共享設置為所有登入 @gm 帳號的用戶都可以觀看.
-4.完成上述影片共享設置後, 請登入 @gm 個人帳號, 至 https://forms.gle/T1Vs4sv9EdetxoWF7  填寫表單並完成期中個人自評成績登錄.
-5.完成上述各步驟後, 將繼續進行線上課程之其他內容直播或錄影
+* 1.老師與組長開會, 開放 live streaming, 回答與課程相關問題.
+* 2.要求所有學員, 透過個人行事曆建立 Google Handout Meet 會議, 展示個人桌面操作, 開放 live stream, 並錄製至少 10 分鐘的個人期中簡報影片, 說明個人於 W1-W8 所完成的相關內容.
+* 3.完成上述個人簡報錄製後, 將存於個人 Google Drive 中的期中簡報 mp4 影片, 以共享設置為所有登入 @gm 帳號的用戶都可以觀看.
+* 4.完成上述影片共享設置後, 請登入 @gm 個人帳號, 至 https://forms.gle/T1Vs4sv9EdetxoWF7  填寫表單並完成期中個人自評成績登錄.
+* 5.完成上述各步驟後, 將繼續進行線上課程之其他內容直播或錄影
 
 個人期中簡報 : https://drive.google.com/file/d/1XMyuV-eFOk8aZkTOMjQfGDLh8iny7A4j/view
 &lt;/small&gt;</t>
@@ -526,6 +533,7 @@ https://github.com/s40723219/cd2020/blob/master/downloads/Assignment3-3.pdf
 
 &lt;small&gt;
 組長開會分配工作
+
 作業 : 根據對Topic2和Topic3的閱讀，使用CoppeliaSim、Webots、Onshape提出一個機電一體化項目。
 
 而我被分配到的是topic3
@@ -543,20 +551,21 @@ https://github.com/s40723219/cd2020/blob/master/downloads/Assignment3-3.pdf
 <t tx="leo.20200617210208.2">### week10
 
 &lt;small&gt;
-gm用戶登入裝置
-進入Google API
-點選建立專案
-接著點選啟用API和服務，並點選Google+ Domains API。
-點選啟用，並點選憑證及設定同意畫面。再選擇內部，並點選建立
-點選建立憑證及OAuth用戶端ID
-選擇網路應用程式，接著建立
-將ID及密碼複製到編輯器
-接著設定來源及URLhttps://localhost:8443及https://localhost:8443/login/google/，
-開啟leo，並打開cd2020pj1.leo
-將路徑及名稱改為自己設定的
-完成後存儲，並點選ROC
-接著輸入pip install authomatic
-進入pj1，打開wsgi.py，即完成
+* 1.gm用戶登入裝置
+* 2.進入Google API
+* 3.點選建立專案
+* 4.接著點選啟用API和服務，並點選Google+ Domains API。
+* 5.點選啟用，並點選憑證及設定同意畫面。再選擇內部，並點選建立
+* 6.點選建立憑證及OAuth用戶端ID
+* 7.選擇網路應用程式，接著建立
+* 8.將ID及密碼複製到編輯器
+* 9.接著設定來源及URLhttps://localhost:8443及https://localhost:8443/login/google/，
+* 10.開啟leo，並打開cd2020pj1.leo
+* 11.將路徑及名稱改為自己設定的
+* 12.完成後存儲，並點選ROC
+* 13.接著輸入pip install authomatic
+* 14.進入pj1，打開wsgi.py，即完成
+
 &lt;/small&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/gK68cVoko5M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20200617210557.1">&lt;section data-markdown&gt;
@@ -571,23 +580,24 @@ gm用戶登入裝置
 <t tx="leo.20200617210557.2">### week11
 
 &lt;small&gt;
-ubuntu設定api連線
-下載vitualbox、ubuntu、CoppeliaSim
-開啟vitualbox，匯入ubuntu
-設定虛擬主機的網路埠號:設定中的網路然後點進階設定三個埠號22、8443、19999
-設定完成後啟動
-輸入密碼kmol2020，並開啟lxterminal
-輸入xterm開啟，可使用ctrl+右鍵將視窗放大
-輸入ls查看內容
-輸入cd coppeliasim4_rev4-&gt;
-ls-&gt;
-cd CoppeliaSim_Edu_v4_0_0_Ubuntu18_04-&gt;
-ls-&gt;
-./coppeliaSim.sh
-開啟後打開檔案sdc.ttt
-開啟CoppeliaSim四輪車控制器檔案
-將檔案中的car_model.py放入編譯器中，並執行
-打開CoppeliaSim中的模擬，四輪車開始繞圈即成功
+* ubuntu設定api連線
+* 下載vitualbox、ubuntu、CoppeliaSim
+* 開啟vitualbox，匯入ubuntu
+* 設定虛擬主機的網路埠號:設定中的網路然後點進階設定三個埠號22、8443、19999
+* 設定完成後啟動
+* 輸入密碼kmol2020，並開啟lxterminal
+* 輸入xterm開啟，可使用ctrl+右鍵將視窗放大
+* 輸入ls查看內容
+* 輸入cd coppeliasim4_rev4-&gt;
+* ls-&gt;
+* cd CoppeliaSim_Edu_v4_0_0_Ubuntu18_04-&gt;
+* ls-&gt;
+* ./coppeliaSim.sh
+* 開啟後打開檔案sdc.ttt
+* 開啟CoppeliaSim四輪車控制器檔案
+* 將檔案中的car_model.py放入編譯器中，並執行
+* 打開CoppeliaSim中的模擬，四輪車開始繞圈即成功
+
 &lt;/small&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/XcNhOhu93XY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20200617211045.1">&lt;section data-markdown&gt;
@@ -630,21 +640,22 @@ ls-&gt;
 <t tx="leo.20200617211359.2">### week12
 
 &lt;small&gt;
-IPv4 Ubuntu對外連線設定操作-&gt;
-點選檔案中喜好設定-&gt;
-到網路新增一個新的NAT網路-&gt;
-設定主機IP為127.0.0.1；客體IP為10.0.2.4；主機連接埠為22、19999、17443、18443；客體連接埠為22、19999、7443、8443-&gt;
-點選設定中的網路，設定主機網路為NAT Network-&gt;
-開啟LXTermial，輸入ifconfig ，sudo apt install net-tools
-cd tmp，ls，ping 127.0.0.1，cd cd2020pj1，git pull
-輸入sudo vi wsgi.py，按i進行編輯-&gt;
-將host改為10.0.2.4-&gt;
-接著按Esc，輸入:wq儲存-&gt;
-開啟leo，並開啟cd2020pj1.leo，點選Nav搜尋allowExt-&gt;
-點選fileuploadfrom，並新增一個ttt檔-&gt;
-cd..,接著在tmp下新增oauth_scrum.txt，輸入sudo vi oauth_scrum.txt-&gt;
-按i編輯，內容先隨便輸入，接著按Esc並輸入:wq儲存-&gt;
-cd cd2020pj1，並輸入python3 wsgi.py啟動
+* IPv4 Ubuntu對外連線設定操作-&gt;
+* 點選檔案中喜好設定-&gt;
+* 到網路新增一個新的NAT網路-&gt;
+* 設定主機IP為127.0.0.1；客體IP為10.0.2.4；主機連接埠為22、19999、17443、18443；客體連接埠為22、19999、7443、8443-&gt;
+* 點選設定中的網路，設定主機網路為NAT Network-&gt;
+* 開啟LXTermial，輸入ifconfig ，sudo apt install net-tools
+* cd tmp，ls，ping 127.0.0.1，cd cd2020pj1，git pull
+* 輸入sudo vi wsgi.py，按i進行編輯-&gt;
+* 將host改為10.0.2.4-&gt;
+* 接著按Esc，輸入:wq儲存-&gt;
+* 開啟leo，並開啟cd2020pj1.leo，點選Nav搜尋allowExt-&gt;
+* 點選fileuploadfrom，並新增一個ttt檔-&gt;
+* cd..,接著在tmp下新增oauth_scrum.txt，輸入sudo vi oauth_scrum.txt-&gt;
+* 按i編輯，內容先隨便輸入，接著按Esc並輸入:wq儲存-&gt;
+* cd cd2020pj1，並輸入python3 wsgi.py啟動
+
 &lt;/small&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/XcNhOhu93XY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20200617211726.1">&lt;section data-markdown&gt;
@@ -659,16 +670,17 @@ cd cd2020pj1，並輸入python3 wsgi.py啟動
 <t tx="leo.20200617211726.2">### week13
 
 &lt;small&gt;
-在搜尋輸入cmd開啟命令窗-&gt;
-輸入ipconfig來查看IPv4的IP-&gt;
-將虛擬主機的整體系統埠號中的主機IP改為個人IPv4的IP-&gt;
-啟動Ubuntu並開啟XLaunch.exe-&gt;
-設定SSH下的X11-&gt;
-在putty程式下輸入xterm，並進入cd2020pj1-&gt;
-git pull檢查版本，在進入docs及cmsimde-&gt;
-輸入vi wsgi.py編輯-&gt;
-將近端的host改為10.0.2.4-&gt;
-輸入python3 wsgi.py，網址為該主機IP加上7443
+* 在搜尋輸入cmd開啟命令窗-&gt;
+* 輸入ipconfig來查看IPv4的IP-&gt;
+* 將虛擬主機的整體系統埠號中的主機IP改為個人IPv4的IP-&gt;
+* 啟動Ubuntu並開啟XLaunch.exe-&gt;
+* 設定SSH下的X11-&gt;
+* 在putty程式下輸入xterm，並進入cd2020pj1-&gt;
+* git pull檢查版本，在進入docs及cmsimde-&gt;
+* 輸入vi wsgi.py編輯-&gt;
+* 將近端的host改為10.0.2.4-&gt;
+* 輸入python3 wsgi.py，網址為該主機IP加上7443
+
 &lt;/small&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/-t4xvQ1O2Rk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20200617211902.1">&lt;section data-markdown&gt;
@@ -683,23 +695,9 @@ git pull檢查版本，在進入docs及cmsimde-&gt;
 <t tx="leo.20200617211902.2">### week14
 &lt;small&gt;
 W14抽點網站:http://mde.tw/cdbw14-2 
+
 W14抽點倉儲:https://github.com/mdecourse/cdbw14-2.git 
-IPv6 Ubuntu 遠端控制
-依照說明設定，設定IPv6網路。
-點選IPv6內容，IPv6位址輸入2001:288:6004:17:2020:2::7219-&gt;
-子網路首碼長度輸入64、預設匝道輸入2001:288:6006:17::254-&gt;
-接著開啟虛擬主機，設定整體系統埠號，將主機IP改為個人IP-&gt;
-啟動Ubuntu輸入密碼kmol2020-&gt;
-開啟LXTermial，並進入cd2020pj1-&gt;
-git pull檢查有無新版本，cd docs/cmsimde-&gt;
-輸入vi wsgi.py，將host改為個人主機IP-&gt;
-開啟putty，輸入預連線主機IP-&gt;
-設定SSH下的X11-&gt;
-設定完成後存儲，在打開即可連線該主機-&gt;
-輸入帳密kmol2020，打開XLaunch.exe並輸入xterm啟動-&gt;
-進入tmp/cd2020pj1/docs/cmsimde，輸入python3 wsgi.py開啟遠端
-&lt;/small&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/slrjsgy7jG4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;/small&gt;</t>
 <t tx="leo.20200617212027.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -732,8 +730,59 @@ W15抽點倉儲:https://github.com/mdecourse/cdbw15-3.git
 * 2.git submodule add老師cmsimde的網址
 * 3.到cmsimde裡面的up_dir，並將所有項目複製到cd2020
 * 4.完成後用python wsgi.py 開始編輯網頁。
+
 &lt;/small&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/5HdJ7a4Bzdc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
+<t tx="leo.20200701221729.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200701221729.2">### week14
+&lt;small&gt;
+IPv6 Ubuntu 遠端控制
+* 依照說明設定，設定IPv6網路。
+* 點選IPv6內容，IPv6位址輸入2001:288:6004:17:2020:2::7219-&gt;
+* 子網路首碼長度輸入64、預設匝道輸入2001:288:6006:17::254-&gt;
+* 接著開啟虛擬主機，設定整體系統埠號，將主機IP改為個人IP-&gt;
+* 啟動Ubuntu輸入密碼kmol2020-&gt;
+* 開啟LXTermial，並進入cd2020pj1-&gt;
+* git pull檢查有無新版本，cd docs/cmsimde-&gt;
+* 輸入vi wsgi.py，將host改為個人主機IP-&gt;
+* 開啟putty，輸入預連線主機IP-&gt;
+* 設定SSH下的X11-&gt;
+* 設定完成後存儲，在打開即可連線該主機-&gt;
+* 輸入帳密kmol2020，打開XLaunch.exe並輸入xterm啟動-&gt;
+* 進入tmp/cd2020pj1/docs/cmsimde，輸入python3 wsgi.py開啟遠端
+
+&lt;/small&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/slrjsgy7jG4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200701221815.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200701221815.2">### week16
+&lt;small&gt;
+* 修改IPv6網路設定及虛擬主機網路設定
+* 進入虛擬主機，輸入密碼kmol2020
+* 開啟Lxterminal，cd tmp -&gt;git clone --recurse-submodules 個人倉儲
+* 輸入ifconfig查詢IPv6的地址並複製
+* 進入cd2020裡面的cmsimde
+* 輸入sudo vi wsgi.py將host改為IPv6地址
+* 完成後esc -&gt; wq儲存
+* 輸入python3 wsgi.py啟動
+* 輸入網址https://[2001:288:6004:17:2020:2:0:7219]:19443 
+
+&lt;/small&gt;</t>
 </tnodes>
 </leo_file>
