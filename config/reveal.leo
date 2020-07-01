@@ -36,11 +36,11 @@
 <v t="leo.20200430135959.1"><vh>封面投影片</vh>
 <v t="leo.20200430135959.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20200430140256.1"><vh>封面投影片</vh>
-<v t="leo.20200430140256.2"><vh>封面投影片內容</vh></v>
-</v>
 <v t="leo.20200430141409.1"><vh>封面投影片</vh>
 <v t="leo.20200430141409.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20200430140256.1"><vh>封面投影片</vh>
+<v t="leo.20200430140256.2"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20200430142319.1"><vh>封面投影片</vh>
 <v t="leo.20200430142319.2"><vh>封面投影片內容</vh></v>
@@ -53,6 +53,9 @@
 </v>
 <v t="leo.20200430140109.1"><vh>封面投影片</vh>
 <v t="leo.20200430140109.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20200701222939.1"><vh>封面投影片</vh>
+<v t="leo.20200701222939.2"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20200617204857.1"><vh>封面投影片</vh>
 <v t="leo.20200617204857.2"><vh>封面投影片內容</vh></v>
@@ -72,20 +75,32 @@
 <v t="leo.20200617210557.1"><vh>封面投影片</vh>
 <v t="leo.20200617210557.2"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20200701223050.1"><vh>封面投影片</vh>
+<v t="leo.20200701223050.2"><vh>封面投影片內容</vh></v>
+</v>
 <v t="leo.20200617211252.1"><vh>封面投影片</vh>
 <v t="leo.20200617211252.2"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20200617211359.1"><vh>封面投影片</vh>
 <v t="leo.20200617211359.2"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20200701223140.1"><vh>封面投影片</vh>
+<v t="leo.20200701223140.2"><vh>封面投影片內容</vh></v>
+</v>
 <v t="leo.20200617211726.1"><vh>封面投影片</vh>
 <v t="leo.20200617211726.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20200701223225.1"><vh>封面投影片</vh>
+<v t="leo.20200701223225.2"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20200617211902.1"><vh>封面投影片</vh>
 <v t="leo.20200617211902.2"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20200701221729.1"><vh>封面投影片</vh>
 <v t="leo.20200701221729.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20200701223308.1"><vh>封面投影片</vh>
+<v t="leo.20200701223308.2"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20200617212027.1"><vh>封面投影片</vh>
 <v t="leo.20200617212027.2"><vh>封面投影片內容</vh></v>
@@ -396,8 +411,7 @@ vertical: body pane on the botton</t>
 * 11.接著將寫好的子程式加入車體
 * 12.進行模擬並用鍵盤控制
 
-&lt;/small&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/3DPMdKi2Gn8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;/small&gt;</t>
 <t tx="leo.20200430140256.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -413,7 +427,8 @@ vertical: body pane on the botton</t>
 Random grouping
 &lt;small&gt;
 https://github.com/s40723219/cd2020/blob/master/downloads/Assignment1.pdf
-&lt;/small&gt;</t>
+&lt;/small&gt;
+</t>
 <t tx="leo.20200430141409.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -424,15 +439,8 @@ https://github.com/s40723219/cd2020/blob/master/downloads/Assignment1.pdf
 						
 </t>
 <t tx="leo.20200430141409.2">### Assignment1
-
 &lt;small&gt;
-Four wheel car
-BubbleRob tutorial
-是在設計簡單的移動機器人BubbleRob，並在設計時嘗試介紹很多CoppeliaSim功能。教程將跨越許多不同的方面，因此請確保也看看其他教程，主要是有關構建仿真模型的教程。有建立模型，設置感測器，建立障礙物並測試其感測功能，讓其繞過障礙物，調整期使寸大小及物理屬性
-Line following BubbleRob tutorial
-旨在擴展BubbleRob的功能，以使其遵循的規則。確保您已經閱讀並理解了第一個BubbleRob教程。微調整其視覺感應器，並設置視覺回調函數，設置絕對坐標，構建機器人遵循的路徑
-External controller tutorial
-此教程說明好幾種方式能從外部控制機器人及模擬機器人，最方便的就是編寫程式碼直接附加到場景；您需要從外部應用程序，機器人或另一台計算機運行控制代碼，這是一種非常便捷的方法。這也使您可以使用與運行真實機器人完全相同的代碼來控制仿真或模型（例如虛擬機器人）
+pdf :https://github.com/s40723219/cd2020/blob/master/downloads/Assignment1.pdf
 &lt;/small&gt;
 </t>
 <t tx="leo.20200430142319.1">&lt;section data-markdown&gt;
@@ -446,8 +454,8 @@ External controller tutorial
 </t>
 <t tx="leo.20200430142319.2">### Assignment2
 &lt;small&gt;
-https://github.com/s40723219/cd2020/blob/master/downloads/Assignment2-0.pdf
-https://github.com/s40723219/cd2020/blob/master/downloads/Assignment2-1.pdf
+2-0pdf :https://github.com/s40723219/cd2020/blob/master/downloads/Assignment2-0.pdf
+2-1pdf :https://github.com/s40723219/cd2020/blob/master/downloads/Assignment2-1.pdf
 &lt;/small&gt;</t>
 <t tx="leo.20200616173552.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -475,8 +483,8 @@ https://github.com/s40723219/cd2020/blob/master/downloads/Mechatronic%20Future%2
 </t>
 <t tx="leo.20200616173652.2">### Assignment3
 &lt;small&gt;
-https://github.com/s40723219/cd2020/blob/master/downloads/Assignment3-2.pdf
-https://github.com/s40723219/cd2020/blob/master/downloads/Assignment3-3.pdf
+3-2pdf :https://github.com/s40723219/cd2020/blob/master/downloads/Assignment3-2.pdf
+3-3pdf :https://github.com/s40723219/cd2020/blob/master/downloads/Assignment3-3.pdf
 &lt;/small&gt;</t>
 <t tx="leo.20200617204857.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -598,8 +606,7 @@ https://github.com/s40723219/cd2020/blob/master/downloads/Assignment3-3.pdf
 * 將檔案中的car_model.py放入編譯器中，並執行
 * 打開CoppeliaSim中的模擬，四輪車開始繞圈即成功
 
-&lt;/small&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/XcNhOhu93XY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;/small&gt;</t>
 <t tx="leo.20200617211045.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -657,7 +664,7 @@ https://github.com/s40723219/cd2020/blob/master/downloads/Assignment3-3.pdf
 * cd cd2020pj1，並輸入python3 wsgi.py啟動
 
 &lt;/small&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/XcNhOhu93XY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+</t>
 <t tx="leo.20200617211726.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -682,7 +689,7 @@ https://github.com/s40723219/cd2020/blob/master/downloads/Assignment3-3.pdf
 * 輸入python3 wsgi.py，網址為該主機IP加上7443
 
 &lt;/small&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/-t4xvQ1O2Rk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+</t>
 <t tx="leo.20200617211902.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -761,7 +768,7 @@ IPv6 Ubuntu 遠端控制
 * 進入tmp/cd2020pj1/docs/cmsimde，輸入python3 wsgi.py開啟遠端
 
 &lt;/small&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/slrjsgy7jG4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+</t>
 <t tx="leo.20200701221815.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -784,5 +791,75 @@ IPv6 Ubuntu 遠端控制
 * 輸入網址https://[2001:288:6004:17:2020:2:0:7219]:19443 
 
 &lt;/small&gt;</t>
+<t tx="leo.20200701222939.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200701222939.2">### week7 設置四輪車以及用鍵盤控制它
+
+操作影片
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/3DPMdKi2Gn8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200701223050.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200701223050.2">### week11
+
+操作影片
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/XcNhOhu93XY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200701223140.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200701223140.2">### week12
+
+操作影片
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/XcNhOhu93XY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200701223225.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200701223225.2">### week13
+
+操作影片
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/-t4xvQ1O2Rk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200701223308.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200701223308.2">### week14
+
+操作影片
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/slrjsgy7jG4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>
